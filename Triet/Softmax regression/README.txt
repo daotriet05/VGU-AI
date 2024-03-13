@@ -1,7 +1,3 @@
-DATA
-	- creditcard.csv
-	- Twitter_Data.csv
-
 MODEL
 	- Credit Card Fraud Detection.ipynb
 		- built following the instruction with small personal changes
