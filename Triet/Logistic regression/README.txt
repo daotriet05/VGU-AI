@@ -1,7 +1,3 @@
-DATA
-    - sentiment_analysis.csv
-    - titanic_modified_dataset.csv
-
 MODEL
     - Titanic Survival Prediction.ipynb
         - built following the instruction with small personal changes
