@@ -1,0 +1,21 @@
+DATA
+	- creditcard.csv
+	- Twitter_Data.csv
+
+MODEL
+	- Credit Card Fraud Detection.ipynb
+		- built following the instruction with small personal changes
+	- Credit Card Fraud Detection improved.ipynb
+		- built from Credit Card Fraud Detection.ipynb
+		- due to the Skewed dataset (only 0.02% of all the samples is positive)
+			- modify dataset by deleting negative samples
+			- the ratio between positive and negative samples is 1:2
+		- try Neuron Network to test does it make the performance better
+			- the result looks like not much different
+	- Twitter Sentiment Analysis.ipynb
+		- built following the instruction with small personal changes
+			- the accuracy is very low (<45%) and the model has reached the limit and cannot improve any more (the loss stays at around 34-36% for 200 epochs)
+		- built by Neuron Network
+			- 4 Dense layers (128 units, 64 units, 32 units and 3 units)
+			- added EarlyStopping to prevent overfitting
+			- the accuracy reached to 90% after 88/200 epochs (stopped by EarlyStopping)
