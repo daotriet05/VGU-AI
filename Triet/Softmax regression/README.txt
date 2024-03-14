@@ -12,6 +12,6 @@ MODEL
 		- built following the instruction with small personal changes
 			- the accuracy is very low (<45%) and the model has reached the limit and cannot improve any more (the loss stays at around 34-36% for 200 epochs)
 		- built by Neuron Network
-			- 4 Dense layers (128 units, 64 units, 32 units and 3 units)
-			- added EarlyStopping to prevent overfitting
-			- the accuracy reached to 90% after 88/200 epochs (stopped by EarlyStopping)
+			- 4 Dense layers (512 units, 256 units, 128 units and 3 units)
+			- added Dropout layer and EarlyStopping to prevent overfitting
+			- the accuracy reached 90% after 15/200 epochs (stopped by EarlyStopping)
